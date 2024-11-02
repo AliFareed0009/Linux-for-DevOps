@@ -21,7 +21,7 @@ less file_name: Open file in page wise
 more file_name: Open file in page wise
 cp file_name directory : Copy file to another directory
 cp directory/file_name directory : To copy the file in directory by giving the path
-cp -r directory1 directory2 : Copy the directory1 in directory2
+cp -r directory_1 directory_2 : Copy the directory_1 in directory_2
 mv file_name ../directory/ : mv file_name to previous path directory
 mv file_name new_file_name : The file_name will change to new_file_name
 wc file_name :   Print the number_of_lines number_of_words number_of_bytes of the file_name
