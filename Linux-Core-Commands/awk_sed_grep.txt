@@ -9,7 +9,7 @@ sed : Same as awk command but works in structured non structured data ( Data sho
 sed -n '/cp/p' Basic_Level_commands.txt ( Strem editor ) { p + pattern }
 sed 's/cp/mv/g' Basic_Level_commands.txt ( s = sub-string, g = global )
 sed '1,10 s/directory/folder/g'  Basic_Level_commands.txt ( This will change the work directory to folder in top 10 lines )
-sed '1,15 s/folder/directory/g'; 1.10p; 11q  Basic_Level_commands.txt ( Chanfe the word folder to directory from line 1 to 15, print lines 1 to 10. quit on 11th line ) 
+sed '1,15 s/folder/directory/g'; 1.10p; 11q  Basic_Level_commands.txt ( Change the word folder to directory from line 1 to 15, print lines 1 to 10. quit on 11th line ) 
 
 grep : To match a patternd and find it ( Global regular expression pattern )
 grep directory Basic_Level_commands.txt
